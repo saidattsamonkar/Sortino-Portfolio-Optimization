@@ -14,7 +14,8 @@ The pool consists of equities which were in NIFTY 50 at the end of 2009. Equity 
 
 1. Fetch equity returns data from t-1 to t-n
 2. Optimize the data to get the Maximum Sortino Ratio (Rf is considered to be 0) subject to the following constraints
-   - Weights should be equal to 1 
+   - weights should be equal to 1 
+   - Every equity in the portfolio should weigh less than the specified limit
    - Portfolio turnover ratio should be less than the specified limit
    - Sector weights should be less than the specified limits
 3. Run simulation on the current month t and save the returns and update the new portfolio weights 
@@ -22,9 +23,10 @@ The pool consists of equities which were in NIFTY 50 at the end of 2009. Equity 
 
 ## Results
 
-The optimized portfolio had superior returns delivering 28.69% higher mean monthly returns at the cost of 1.54% higher monthly mean standard deviation when compared to the benchmark from 2010-01 to 2022-09
+The optimized portfolio had superior returns delivering 28.69% higher mean monthly returns at the cost of 1.54% higher monthly mean standard deviation when compared to the benchmark from 2010-01 to 2022-09.
 
 Simulation parameters
+- lookback period = 12 months
 - max portfolio turover = 5%
 - max equity weight = 5%
 - max sector weight = 30%
