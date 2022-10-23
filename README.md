@@ -10,7 +10,7 @@ This Project uses SciPy's SLSQP to optimize for Sortino Ratio and generate weigh
 
 ## Data 
 
-The pool consists of equities which were in NIFTY 50 at the end of 2009. Equity data is fetched using the yfinance API.
+The pool consists of equities which were in NIFTY 50 at the end of 2009. Data is fetched using yfinance API.
 
 
 ## Steps 
