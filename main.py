@@ -393,7 +393,7 @@ class PortfolioOptimization():
 
 if __name__ == "__main__":
     POPT = PortfolioOptimization()
-    #set overwrite to False if the data is already downloaded
+    #set overwrite to True if data is not downloaded
     POPT.Download_data(startDate=startDateA, endDate=endDateA, overwrite=False)
     POPT.run()
 
