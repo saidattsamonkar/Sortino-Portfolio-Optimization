@@ -18,3 +18,6 @@ The pool consists of equities which were in NIFTY 50 at the end of 2009. Equity 
 
 
 ## Results
+The optimized portfolio gave superior returns compared NIFTY 50 over the time period. The portfolio on average had 1.54% higher monthly standard deviation but gave 28.69% higher mean monthly returns than the benchmark.
+
+![](https://github.com/saidattsamonkar/POPT/blob/main/Assets/Sim.png)
