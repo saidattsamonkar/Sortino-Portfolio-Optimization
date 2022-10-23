@@ -5,7 +5,7 @@
 This Project uses SciPy's SLSQP to optimize for Sortino Ratio and generate weights to actively manage NIFTY 50 Portfolio. When compared to Information Ratio and Sharpe Ratio, optimizing with Sortino Ratio gave the best results as it takes into consideration the standard deviations of only the portfolio drawdowns. 
 
 
-<img src="https://github.com/saidattsamonkar/POPT/blob/main/Assets/Sortino.png" width="200"  />
+<img src="https://github.com/saidattsamonkar/POPT/blob/main/Assets/Sortino.png" width="400"  />
 
 
 ## Data 
