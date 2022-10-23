@@ -26,7 +26,7 @@ The pool consists of equities which were in NIFTY 50 at the end of 2009. Data is
 
 ## Results
 
-The optimized portfolio had superior returns delivering 28.69% higher mean monthly returns and 3.86% lower monthly mean downside standard deviation when compared to the benchmark from 2010-01 to 2022-09.
+The optimized portfolio had superior returns delivering 28.69% higher mean monthly returns and 3.86% lower mean monthly downside standard deviation when compared to the benchmark from 2010-01 to 2022-09.
 
 Simulation parameters:
 - lookback period = 12 months
