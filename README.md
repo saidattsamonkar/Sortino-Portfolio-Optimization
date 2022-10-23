@@ -45,7 +45,7 @@ The following graph shows the 24-month rolling IR of the Sortino optimized portf
 
 ![](https://github.com/saidattsamonkar/POPT/blob/main/Assets/IR.png)
 
-The optimized portfolio had 24-month rolling IR around 1.0 until the end of 2014 after which it started to dip. preliminary tests done on updated Nifty 50 pool of equities showed the dip can be explained by the lack of updates to the pool of equities. At the end of 2022-09 only 28 equities remained in the Nifty 50 out of the 50 we started with. The dip can also be explained by the dip in the ideal portfolio. 
+The optimized portfolio had 24-month rolling IR around 1.0 until the end of 2014 after which it started to dip. Preliminary tests done on updated Nifty 50 pool of equities showed the dip can be explained by the lack of updates to the pool of equities. At the end of 2022-09 only 28 equities remained in the Nifty 50 out of the 50 we started with. The dip can also be explained by the dip in the ideal portfolio. 
 
 
 
