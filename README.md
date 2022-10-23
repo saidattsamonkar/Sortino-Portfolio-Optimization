@@ -1,7 +1,7 @@
 # Sortino Ratio NIFTY 50 Portfolio Optimition
 
 ## Description
-This Project uses SciPy's SLSQP to optimiez for Sortino Ratio and generate weights to actively manage NIFTY 50 Portfolio 
+This Project uses SciPy's SLSQP to optimize for Sortino Ratio and generate weights to actively manage NIFTY 50 Portfolio 
 
 ## Data 
 The pool consists of equities which were in NIFTY 50 at the end of 2009. Equity data is fetched using yfinance API
