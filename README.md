@@ -25,7 +25,7 @@ The pool consists of equities which were in NIFTY 50 at the end of 2009. Equity 
 
 The optimized portfolio had superior returns delivering 28.69% higher mean monthly returns at the cost of 1.54% higher monthly mean standard deviation when compared to the benchmark from 2010-01 to 2022-09.
 
-Simulation parameters
+Simulation parameters:
 - lookback period = 12 months
 - max portfolio turover = 5%
 - max equity weight = 5%
