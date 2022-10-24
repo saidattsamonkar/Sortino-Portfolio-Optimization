@@ -21,7 +21,7 @@ The pool consists of equities which were in NIFTY 50 at the end of 2009. Data is
    - Every equity in the portfolio should weigh less than the specified limit
    - Portfolio rebalance/turnover should be less than the specified limit
    - Sector weights should be less than the specified limits
-3. Run simulation on the current month t, taking into account the transactional costs to rebalance the portfolio, and save the returns and update the new portfolio weights 
+3. Run simulation on the current month t, taking into account the transactional costs to rebalance the portfolio, save the returns and update the new portfolio weights 
 
 
 ## Results
