@@ -15,8 +15,8 @@ The pool consists of equities which were in NIFTY 50 at the end of 2009. Data is
 
 ## Steps 
 
-1. Fetch equity returns data from t-1 to t-n
-2. Optimize the data to get the Maximum Sortino Ratio (Rf is considered to be 0) subject to the following constraints
+1. Fetch equity returns data from t-2 to t-n (t-1 is not included to ignore short term market movements)
+2. Optimize the data to get the Maximum Sortino Ratio (Rf is considered to be 0) applying exponential weights, subject to the following constraints
    - weights should be equal to 1 
    - Every equity in the portfolio should weigh less than the specified limit
    - Portfolio rebalance/turnover should be less than the specified limit
