@@ -240,6 +240,24 @@ class PortfolioOptimization():
         def S11_max(w):
             return -np.sum(w[SecLens[11][0]:SecLens[11][1] + 1]) + SECTOR_WEIGHTS[11][1]
 
+        def S12_min(w):
+            return np.sum(w[SecLens[12][0]:SecLens[12][1] + 1]) - SECTOR_WEIGHTS[12][0]
+
+        def S12_max(w):
+            return -np.sum(w[SecLens[12][0]:SecLens[12][1] + 1]) + SECTOR_WEIGHTS[12][1]
+
+        def S13_min(w):
+            return np.sum(w[SecLens[13][0]:SecLens[13][1] + 1]) - SECTOR_WEIGHTS[13][0]
+
+        def S13_max(w):
+            return -np.sum(w[SecLens[13][0]:SecLens[13][1] + 1]) + SECTOR_WEIGHTS[13][1]
+
+        def S14_min(w):
+            return np.sum(w[SecLens[14][0]:SecLens[14][1] + 1]) - SECTOR_WEIGHTS[14][0]
+
+        def S14_max(w):
+            return -np.sum(w[SecLens[14][0]:SecLens[14][1] + 1]) + SECTOR_WEIGHTS[14][1]
+
         cons = [{'type': 'eq', 'fun': sum_con},
                 {'type': 'ineq', 'fun': S1_min},
                 {'type': 'ineq', 'fun': S1_max},
@@ -262,7 +280,13 @@ class PortfolioOptimization():
                 {'type': 'ineq', 'fun': S10_min},
                 {'type': 'ineq', 'fun': S10_max},
                 {'type': 'ineq', 'fun': S11_min},
-                {'type': 'ineq', 'fun': S11_max}]
+                {'type': 'ineq', 'fun': S11_max}
+                {'type': 'ineq', 'fun': S12_min},
+                {'type': 'ineq', 'fun': S12_max},
+                {'type': 'ineq', 'fun': S13_min},
+                {'type': 'ineq', 'fun': S13_max},
+                {'type': 'ineq', 'fun': S14_min},
+                {'type': 'ineq', 'fun': S14_max}]
 
         #Add monthly change/turnover constraint if no first itertion
         def MC(w):
